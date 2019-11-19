@@ -26,6 +26,15 @@ def LoadFile(file):
 
             Total += word
 
-        print(Array)
+        print("OUTPUT",Array)
 
 # Commit #3 done here ----
+
+#Function #3
+def UpdateString(string,char,num):
+    string = list(string)
+    string[num] = char
+    string = "".join(string)
+    print("OUTPUT",string)
+
+# Commit #4 done here ----
