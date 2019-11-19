@@ -46,3 +46,18 @@ def FindWordCount(string,word):
     return count
 
 # Commit #5 done here ----
+
+# Function #5
+
+def ScoreFinder(players, scores, person):
+    person = list(person)
+    letter = person[0].upper()
+    person[0] = letter
+    person = "".join(person)
+    if person in players:
+        position = players.index(person)
+        print("OUTPUT %s got a score of %f" %(person,scores[position]))
+    else:
+        print("OUTPUT player not found")
+
+
