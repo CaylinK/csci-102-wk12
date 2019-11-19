@@ -26,7 +26,7 @@ def LoadFile(file):
 
             Total += word
 
-        print("OUTPUT",Array)
+        return Array
 
 # Commit #3 done here ----
 
@@ -38,3 +38,11 @@ def UpdateString(string,char,num):
     print("OUTPUT",string)
 
 # Commit #4 done here ----
+
+# Function #4
+def FindWordCount(string,word):
+    string = str(string)
+    count = string.count(word)
+    return count
+
+# Commit #5 done here ----
