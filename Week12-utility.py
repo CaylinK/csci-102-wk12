@@ -82,4 +82,14 @@ def Intersection(list1,list2):
                 NewList.append(cells)
     return NewList
 
-# Commit # 8 doen here----
+# Commit # 8 done here----
+
+def NotIn(list1,list2):
+    NewList = []
+    for cell in list1:
+        if cell not in list2:
+            NewList.append(cell)
+
+    return NewList
+
+# commit #9 done here----
