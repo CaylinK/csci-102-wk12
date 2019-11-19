@@ -60,4 +60,13 @@ def ScoreFinder(players, scores, person):
     else:
         print("OUTPUT player not found")
 
+# Commit # 6 done here ---
 
+# Function #6
+
+def Union(list1,list2):
+    newlist = list1+list2
+    return newlist
+
+
+# Commit # 7 done here----
