@@ -30,7 +30,8 @@ def LoadFile(file):
 
 # Commit #3 done here ----
 
-#Function #3
+# Function #3
+
 def UpdateString(string,char,num):
     string = list(string)
     string[num] = char
@@ -70,3 +71,15 @@ def Union(list1,list2):
 
 
 # Commit # 7 done here----
+
+# Function #7
+def Intersection(list1,list2):
+    NewList = []
+    for cells in list1:
+
+        for cells2 in list2:
+            if cells == cells2:
+                NewList.append(cells)
+    return NewList
+
+# Commit # 8 doen here----
